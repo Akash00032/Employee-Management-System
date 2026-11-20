@@ -1,0 +1,54 @@
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+  --color-primary: #2563EB;
+  --color-primary-hover: #1D4ED8;
+  --color-primary-active: #1E40AF;
+  --color-primary-light: #DBEAFE;
+  --color-primary-soft: #EFF6FF;
+  --color-background: #F8FAFC;
+  --color-background-secondary: #F1F5F9;
+  --color-surface: #FFFFFF;
+  --color-surface-elevated: #FFFFFF;
+  --color-sidebar: #0F172A;
+  --color-sidebar-hover: #1E293B;
+  --color-sidebar-active: #1D4ED8;
+  --color-sidebar-text: #CBD5E1;
+  --color-sidebar-active-text: #FFFFFF;
+  --color-heading: #0F172A;
+  --color-text: #1E293B;
+  --color-text-secondary: #475569;
+  --color-muted: #64748B;
+  --color-inverted: #FFFFFF;
+  --color-border: #E2E8F0;
+  --color-divider: #CBD5E1;
+  --color-focus: #93C5FD;
+  --color-success: #16A34A;
+  --color-warning: #D97706;
+  --color-danger: #DC2626;
+  --color-info: #0284C7;
+  --color-success-soft: #F0FDF4;
+  --color-warning-soft: #FFFBEB;
+  --color-danger-soft: #FEF2F2;
+  --color-info-soft: #F0F9FF;
+  --chart-blue: #2563EB;
+  --chart-green: #16A34A;
+  --chart-amber: #D97706;
+  --chart-red: #DC2626;
+  --chart-violet: #7C3AED;
+  --chart-slate: #64748B;
+  --color-overlay: rgb(15 23 42 / 52%);
+  --shadow-card: 0 1px 3px rgb(15 23 42 / 5%), 0 8px 24px rgb(15 23 42 / 3%);
+
+  --page: var(--color-background);
+  --surface: var(--color-surface);
+  --surface-muted: var(--color-background-secondary);
+  --text: var(--color-text);
+  --muted: var(--color-muted);
+  --line: var(--color-border);
+  --green: var(--color-primary);
+  --green-dark: var(--color-primary-hover);
+  --green-soft: var(--color-primary-soft);
+  --chart-grid: var(--color-border);
+  --shadow: var(--shadow-card);
+}
